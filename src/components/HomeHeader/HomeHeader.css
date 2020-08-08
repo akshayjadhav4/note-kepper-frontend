@@ -1,0 +1,41 @@
+.homeHeader {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.homeHeader__userName {
+  text-transform: capitalize;
+  flex: 0.3;
+}
+
+.homeHeader__addNoteDiv {
+  flex: 0.7;
+}
+
+.homeHeader__addNote {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.homeHeader__IconSuccess {
+  color: green;
+}
+
+.homeHeader__IconError {
+  color: red;
+}
+@media (max-width: 990px) {
+  .homeHeader {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 730px) {
+  .homeHeader__addNote {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}

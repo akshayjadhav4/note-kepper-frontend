@@ -1,0 +1,12 @@
+.signUp {
+  display: grid;
+  place-items: center;
+}
+.signUp__title {
+  margin-top: 20px;
+}
+
+.signUp__link {
+  color: black;
+  text-decoration: none;
+}

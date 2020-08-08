@@ -1,0 +1,11 @@
+.signIn {
+  display: grid;
+  place-items: center;
+}
+.signIn__title {
+  margin-top: 20px;
+}
+
+/* .Mui-focused {
+  color: aqua !important;
+} */

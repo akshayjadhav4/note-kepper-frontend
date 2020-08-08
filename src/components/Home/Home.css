@@ -1,0 +1,6 @@
+.home__notecontainer {
+  margin-top: 80px;
+  display: grid;
+  place-items: center;
+  color: grey;
+}
